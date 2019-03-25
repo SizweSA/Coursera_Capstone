@@ -1,0 +1,22 @@
+Data
+
+To help Ababa Coffee in making an informed decision about the best location to setup the business offices in Johannesburg, the Data
+Scientits we will need to access following data:
+
+1) The Boroughs/Regions and Neighbourhoods/Suburbs of Johannesburg from Wikipedia: https://en.wikipedia.org/wiki/Johannesburg. 
+We will make us of the BeautifulSoup Python package to scrape this Wikipedia website and transform the data about the City of 
+Johannesburg including all its Boroughs/Regions and Neighbourhoods/Suburbs into a Pandas dataframe.
+
+2) The GPS coordinates (latitude, longitude) of the these Boroughs/Regions and Neighbourhoods/Suburbs of Johannesburg. We will use 
+   the Geocoder Python package to get these coordinates.
+
+3) From Foursquare API we require the following venues data:
+ - the Coffee Shops venues of the Johannesburg Neighbourhoods
+ - the Restaurants venues of the Johannesburg Neighbourhoods
+ - the Diners venues of the Johannesburg Neighbourhoods
+ - the Fast Foods Outlets venues of the Johannesburg Neighbourhoods
+ - the Grocery Shop venues of the Johannesburg Neighbourhoods
+ - the Supermarkets venues of the Johannesburg Neighbourhoods
+
+We will then leverage the above data in order to determine which Johannesburg Neighbourhood is the most appropriate in order to 
+locate the offices for Ababa Coffee in Johannesburg, South Africa.
